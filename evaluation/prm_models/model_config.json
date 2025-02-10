@@ -1,0 +1,63 @@
+{
+    "Math-PSA": 
+        {
+            "model_id": "Qwen/Qwen2.5-Math-7B-Instruct",
+            "downloaded_adapter_path": null, 
+            "description": "Qwen2.5-Math-7B-Instruct + LoRA on PRM800K, Math-Shephard and MATH-APS"
+        },
+    "Math-Shepherd": 
+        {
+            "model_id": "peiyi9979/math-shepherd-mistral-7b-prm",
+            "description": "Mistral-7B + Full finetuning on Math-Shephard"
+        },
+    "Qwen-2.5-Math-PRM": 
+        {
+            "model_id": "Qwen/Qwen2.5-Math-7B-PRM",
+            "description": "Qwen2.5-Math-7B-Instruct + Full finetuning on PRM800K"
+        },
+    "RLHFlow-Deepseek": 
+        {
+            "model_id": "RLHFlow/Llama3.1-8B-PRM-Deepseek-Data",
+            "description": "Llama3.1-8B-Instruct + Full finetuning on RLHFlow/Deepseek-PRM-Data"
+        },
+    "Llama-PRM800K": 
+        {
+            "model_id": "UW-Madison-Lee-Lab/Llama-PRM800K",
+            "description": "Llama-3.1-8B-Instruct + Full finetuning on PRM800K"
+        },
+    "Qwen-PRM800K": 
+        {
+            "model_id": "UW-Madison-Lee-Lab/Qwen-PRM800K",
+            "description": "Qwen2.5-Math-7B-Instruct + Full finetuning on PRM800K"
+        },
+    "VersaPRM": 
+        {
+            "model_id": "UW-Madison-Lee-Lab/VersaPRM",
+            "description": "Llama-3.1-8B-Instruct + Full finetuning on PRM800K + LoRA on MMLU-Pro-Train"
+        },
+    "VersaPRM-Aug": 
+        {
+            "model_id": "UW-Madison-Lee-Lab/VersaPRM-Aug",
+            "description": "Llama-3.1-8B-Instruct + Full finetuning on PRM800K + LoRA on MMLU-Pro-Train & MMLU-Pro Counterfactual Augmentations"
+        },
+    "VersaPRM-Small-Subset": 
+        {
+            "model_id": "UW-Madison-Lee-Lab/VersaPRM-Small-Subset",
+            "description": "Llama-3.1-8B-Instruct + Full finetuning on PRM800K + LoRA on MMLU-Pro-Train Random Subset"
+        },
+    "VersaPRM-Math-Subset": 
+        {
+            "model_id": "UW-Madison-Lee-Lab/VersaPRM-Math-Subset",
+            "description": "Llama-3.1-8B-Instruct + Full finetuning on PRM800K + LoRA on MMLU-Pro-Train Math Subset"
+        },
+    "VersaPRM-Base-3B": 
+        {
+            "model_id": "UW-Madison-Lee-Lab/VersaPRM-Base-3B",
+            "description": "Llama-3.1-3B-Instruct + LoRA on MMLU-Pro-Trainn"
+        },
+    "VersaPRM-Base-8B": 
+        {
+            "model_id": "UW-Madison-Lee-Lab/VersaPRM-Base-8B",
+            "description": "Llama-3.1-8B-Instruct + LoRA on MMLU-Pro-Train"
+        }
+}
