@@ -12,14 +12,11 @@ Link to paper (TODO: Add link)
 ## 🚀 Models
 We provide several **VersaPRM models** and **PRM-enhanced versions** of standard architectures, trained with different configurations.
 
-### 📌 [VersaPRM Collection](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM)
-A suite of **VersaPRM** models trained with various configurations:
-- **[VersaPRM-Base-8B](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Base-8B)** – trained from llama-3.1-8b using MMLU-Pro-CoT-Train-Labeled
-- **[VersaPRM-Aug](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Aug)** – Trained with augmented data for improved generalization.
-- **[VersaPRM-Small-Subset](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Small-Subset)** – A lightweight model for quick inference.
-- **[VersaPRM-Math-Subset](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Math-Subset)** – Specialized trained on MMLU-Pro Math subset.
-
-### 📌 PRM-Enhanced Models
+### 📌 [VersaPRM Collection](https://huggingface.co/collections/UW-Madison-Lee-Lab/versaprm-67a7eb34049b2a1bd3055f6e)
+A suite of PRM models trained with various configurations:
+- **[VersaPRM](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM)** – trained from Llama-PRM800K using MMLU-Pro-CoT-Train-Labeled
+- **[VersaPRM-Base-8B](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Base-8B)** – trained from llama-3.1-8b instruct using MMLU-Pro-CoT-Train-Labeled
+- **[VersaPRM-Aug](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Aug)** – trained from Llama-PRM800K using MMLU-Pro-CoT-Train-Labeled with counterfactually augmentations.
 - **[Qwen-PRM800K](https://huggingface.co/UW-Madison-Lee-Lab/Qwen-PRM800K)** – Fine-tuned **Qwen model** by PRM800K
 - **[Llama-PRM800K](https://huggingface.co/UW-Madison-Lee-Lab/Llama-PRM800K)** – Fine-tuned **LLaMA model** by PRM800K
 
