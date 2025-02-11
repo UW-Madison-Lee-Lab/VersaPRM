@@ -10,15 +10,15 @@ Process Reward Models (PRMs) have proven effective at enhancing mathematical rea
 Link to paper (TODO: Add link)
 
 ## 🚀 Models
-We provide several **VersaPRM models** and **PRM-enhanced versions** of standard architectures, trained with different configurations.
+We provide several **VersaPRM models** and **Math PRM models** trained with different configurations.
 
 ### 📌 [VersaPRM Collection](https://huggingface.co/collections/UW-Madison-Lee-Lab/versaprm-67a7eb34049b2a1bd3055f6e)
 A suite of PRM models trained with various configurations:
 - **[VersaPRM](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM)** – trained from Llama-PRM800K using MMLU-Pro-CoT-Train-Labeled
 - **[VersaPRM-Base-8B](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Base-8B)** – trained from llama-3.1-8b instruct using MMLU-Pro-CoT-Train-Labeled
-- **[VersaPRM-Aug](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Aug)** – trained from Llama-PRM800K using MMLU-Pro-CoT-Train-Labeled with counterfactually augmentations.
-- **[Qwen-PRM800K](https://huggingface.co/UW-Madison-Lee-Lab/Qwen-PRM800K)** – Fine-tuned **Qwen model** by PRM800K
-- **[Llama-PRM800K](https://huggingface.co/UW-Madison-Lee-Lab/Llama-PRM800K)** – Fine-tuned **LLaMA model** by PRM800K
+- **[VersaPRM-Aug](https://huggingface.co/UW-Madison-Lee-Lab/VersaPRM-Aug)** – trained from Llama-PRM800K using MMLU-Pro-CoT-Train-Labeled with counterfactual augmentations.
+- **[Qwen-PRM800K](https://huggingface.co/UW-Madison-Lee-Lab/Qwen-PRM800K)** – Fine-tuned **Qwen model** using PRM800K dataset
+- **[Llama-PRM800K](https://huggingface.co/UW-Madison-Lee-Lab/Llama-PRM800K)** – Fine-tuned **LLaMA model** using PRM800K dataset
 
 ---
 
